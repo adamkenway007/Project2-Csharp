@@ -1,0 +1,9 @@
+language: csharp
+solution: Project2.sln
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 3B_0mGFmedj1oY389LowQQ  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
